@@ -1,0 +1,19 @@
+Warning: Object directory not changed from original /home/jengwall/Desktop/skeleton/vmm-prog
+/usr/local/bin/clang90  -O2 -pipe   -D_KERNEL -Wall -Wredundant-decls -Wnested-externs -Wstrict-prototypes  -Wmissing-prototypes
+-Wpointer-arith -Wcast-qual  -Wold-style-definition -Wmissing-include-dirs  -Wno-pointer-sign -Winit-self -Wundef -std=c99 -Wno-
+unused-but-set-variable  -Werror -DKLD_MODULE -nostdinc  -I. -I@ -I/home/jengwall/Desktop/skeleton/vmm-prog/forwarder_x86_64/inc
+lude -I@/../crypto/libressl/include -I@/../include  -fno-omit-frame-pointer -Wold-style-declaration  -finline-limit=8000  --para
+m inline-unit-growth=100  --param large-function-growth=1000 -fno-common -ffreestanding -fno-stack-protector -fno-strict-aliasin
+g -fno-strict-overflow -mcmodel=kernel -mno-red-zone -mfpmath=387 -mno-mmx -mno-3dnow -mno-sse -mno-sse2 -mno-sse3 -mpreferred-s
+tack-boundary=4 -mno-ssse3 -mno-sse4.1 -mno-sse4.2 -mno-sse4 -mno-sse4a  -mno-sse5 -mno-abm -mno-aes -mno-avx -mno-pclmul -mno-p
+opcnt -mindirect-branch=thunk-inline -msoft-float -fno-asynchronous-unwind-tables -fno-omit-frame-pointer -std=gnu99 -Wall -Wred
+undant-decls -Wnested-externs -Wstrict-prototypes  -Wmissing-prototypes -Wpointer-arith -Wcast-qual  -Wold-style-definition -Wmi
+ssing-include-dirs  -Wno-pointer-sign -Winit-self -Wundef -std=c99 -Wno-unused-but-set-variable  -c vmm.c
+clang-9: error: unknown argument: '-mpreferred-stack-boundary=4'
+clang-9: error: unknown argument '-mno-sse5'; did you mean '-mno-sse2'?
+clang-9: error: unknown argument '-mno-abm'; did you mean '-mno-tbm'?
+clang-9: error: unknown argument: '-mindirect-branch=thunk-inline'
+clang-9: error: optimization flag '-finline-limit=8000' is not supported [-Werror,-Wignored-optimization-argument]
+*** Error code 1
+
+Stop.
