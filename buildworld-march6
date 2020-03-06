@@ -1,0 +1,4 @@
+/usr/obj/usr/src/ctools_x86_64_x86_64/usr/libexec/binutils227/elf/nm: 'stack_protector.o': No such file
+/usr/obj/usr/src/ctools_x86_64_x86_64/usr/libexec/binutils227/elf/nm: 'subs.o': No such file
+/usr/obj/usr/src/ctools_x86_64_x86_64/usr/libexec/binutils227/elf/nm: 'cmds.o': No such file
+/usr/obj/usr/src/ctools_x86_64_x86_64/usr/libexec/binutils227/elf/ar: cmds.o: No such file or directory
